@@ -1,0 +1,134 @@
+#m-checkout{
+    margin-top: 50px;
+
+    //
+    // Owl carousel
+    //
+
+    .owl-pagination .owl-page{
+        position: relative;    
+    }
+
+    .owl-controls{
+        opacity: 1;
+        position: absolute;
+        top: -25px;
+        width: 100%;
+
+        .owl-page{
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .owl-pagination {
+            text-align: center;
+        }
+
+        .owl-page span{
+            background: transparent;
+        }
+
+        .owl-page.active span{
+            color: #454545;
+        }
+
+        .owl-page.active span.owl-page-number{
+            background: #76b572
+        }
+
+        .owl-page span.owl-page-number {
+            width: 30px;
+            height: 30px;
+            background: green;
+            position: absolute;
+            border-radius: 100%;
+            top: -35px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            font-weight: bold;
+            padding-top: 7px;
+            text-align: center;
+            color: #f5f5f5;
+        }
+    }
+
+    .stepBox .row .form-group{
+        
+        padding-bottom: 0.75em;
+
+        &.input-2-col{
+            padding: 0 0.75em;
+        }
+    }
+
+    .form-group{
+        position: relative;
+    }
+
+
+    .has-error.col-s-2.col-m-6.col-l-6.col-xl-12:after{
+        right: 20px;
+    }
+
+    .padding-bot{
+        padding-bottom: 1em;
+    }
+
+    //
+    // validation
+    //
+
+    $error-color: #fc0;
+    $success-color: #76b572; 
+
+    .form-input.error{
+        border-color: $error-color!important;
+    }
+    .form-input.success{
+        border-color: $success-color!important;   
+    }
+
+    .form-group.input-2-col:after {
+        right: 25px;
+    }
+
+    .help-block{
+        &.form-error{ color: $error-color }
+        margin: 0.5em 0;
+        display: block;
+    }
+    //
+    // validation error icon
+    //
+
+    .has-error:after,
+    .has-success:after{
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+        position: absolute;
+        right: 15px;
+        top: 30px;
+    }
+
+    .has-error:after{
+        content: '\f071';
+        color: $error-color!important;
+    }
+
+    .has-success:after{
+        content: '\f00c';
+        color: $success-color;
+    }
+
+    //
+    // companies and institutions
+    //
+
+    .checkbox-collapse{
+        display: none;   
+    }
+
+}

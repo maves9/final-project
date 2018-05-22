@@ -1,0 +1,27 @@
+{
+  "name": "Template",
+  "version": "0.1.0",
+  "description": "Responsive template",
+  "keywords": "[\"responsive\", \"e-commerce\", \"template\", \"sass\", \"javascript\"]",
+  "author": "Platform",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "*",
+    "breakpoint-sass": "^2.7.0",
+    "breakpoint-slicer": "^2.0.0",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-image-embed": "*",
+    "grunt-postcss": "*",
+    "grunt-sass": "*",
+    "load-grunt-tasks": "*",
+    "node-json-minify": "*",
+    "time-grunt": "*"
+  }
+}
