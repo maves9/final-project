@@ -28,7 +28,10 @@ No extra templates required for this template
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
         {/literal}
             ga('create', '{$settings.api_google_analytics}', 'auto');
+
+            {* require google optimize *}
             ga('require', 'GTM-TXSWDSN');
+
             ga('send', 'pageview');
         {* Analytics for e-commerce (transaction) *}
         {if $page.isCheckout and isset($smarty.get.approved) and !empty($page.orderId)}
